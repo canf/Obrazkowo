@@ -18,10 +18,12 @@
         <td><%= pin.description %></td>
         <td>
           <span class="badge badge-primary"><%= link_to ' Show', pin %></span></td>
+          <% if pin.user == current_user %>
         <td>
           <span class="badge badge-secondary"><%= link_to ' Edit', edit_pin_path(pin) %></span></td>
         <td>
           <span class="badge badge-danger"><%= link_to ' Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %></span><br></td>
+          <% end %>
       </tr>
     <% end %>
   </tbody>
