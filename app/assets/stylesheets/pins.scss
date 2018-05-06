@@ -3,7 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 a {
-  color: #ffffff;
+  color: #777;
   text-decoration: none;
+}
+
+#pins {
+	margin: 0 auto;
+}
+.box {
+	margin: 5px;
+	width: 214px;
+}
+.box img {
+	width: 100%;
 }
 

@@ -13,6 +13,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use Puma as the app server
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'puma', '~> 3.7'
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -30,7 +32,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'jquery-turbolinks', '~> 2.1'
+gem 'masonry-rails', '~> 0.2.4'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
